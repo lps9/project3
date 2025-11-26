@@ -26,7 +26,7 @@ nav ul li a:hover {
 
 body {
   background-color: rgb(225, 238, 255);
-  font-family: Verdana;
+  font-family:Georgia;
   font-size: 20px;
 }
 h1 {
@@ -73,7 +73,7 @@ p:hover {
   body {
     font-size: 18px;
     background-color: rgb(247, 255, 137);
-    font-family:'Lucida Sans';
+    font-family:monospace
   }
   nav ul {
     font-size: 32px;
