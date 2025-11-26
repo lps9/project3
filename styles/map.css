@@ -1,0 +1,50 @@
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 5px;
+  background-color: #fdb0fd;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  background-color: #ff00ff;
+  color: black;
+  text-align: center;
+  padding: 5px 15px;
+  font-size: 2em;
+  margin: 0px 15px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: #900090;
+}
+
+body {
+  background-color: rgb(225, 238, 255);
+  font-family: Verdana;
+}
+
+#googleMap {
+    width:600px;
+    height:600px;
+    margin: auto;
+    margin-top: 5px;
+    border: solid red 5px;
+    display: inline-block;
+}
+
+#leftSection {
+    float: left;
+    padding: 15px 15% 0px 15px;
+}
+
+#questions {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    font-size: 20px;
+}

@@ -1,0 +1,55 @@
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  border-radius: 5px;
+  background-color: #fdb0fd;
+}
+nav ul li {
+  float: left;
+}
+nav ul li a {
+  display: block;
+  background-color: #ff00ff;
+  color: black;
+  text-align: center;
+  padding: 5px 15px;
+  font-size: 2em;
+  margin: 0px 15px;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background-color: #900090;
+}
+
+body {
+  background-color: rgb(203, 254, 215);
+  font-family: Verdana;
+}
+p {
+  width: 1000px;
+  font-family: "Merriweather";
+}
+img#blend {
+  width: 300px;
+  border: solid blue 5px;
+  transition: border 0.3s;
+}
+img#blend:hover {
+  border: solid red 5px;
+}
+img#poison {
+  padding: 5px;
+  width: 400px;
+  border: solid black 5px;
+}
+p#intro {
+  color: rgb(8, 100, 8);
+  font-size: 20px;
+}
+audio {
+  border: 5px solid green;
+  background-color: green;
+  width: 700px;
+}

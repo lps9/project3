@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Map Page</title>
+    <link rel="stylesheet" href="styles/map.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Boldonse&family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+    <script src="scripts/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="page3.html">Favorite Animal</a></li>
+          <li><a href="map.html">Map</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="leftSection">
+      <p>My 3 Features:</p>
+      <p>1. IIT Icon Marker</p>
+      <p>2. Circle around Chicago</p>
+      <p>3. Arrow on Lake Michigan</p>
+      <button type="button" id="questions">Questions?</button>
+    </div>
+    <div id="googleMap"></div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBM1F-BpX660SBK3-Vw9O9f7AEvTAIH8rI&callback=initMap"></script>
+  </body>
+</html>
